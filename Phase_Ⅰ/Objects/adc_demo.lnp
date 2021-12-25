@@ -1,0 +1,10 @@
+--cpu=Cortex-M4.fp
+".\objects\tm1638.o"
+".\objects\adc_demo.o"
+".\driverlib\rvmdk\driverlib.lib"
+".\objects\startup_tm4c129.o"
+".\objects\system_tm4c129.o"
+--strict --scatter ".\Objects\adc_demo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\adc_demo.map" -o .\Objects\adc_demo.axf
