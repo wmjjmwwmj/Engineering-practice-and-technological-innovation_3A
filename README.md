@@ -1,2 +1,2 @@
-# Engineering-practice-and-technological-innovation_3A
-Keil code for the project of course EI310___group 46
+# SJTU_ET310
+Final project with frequency counter as bonus function.
